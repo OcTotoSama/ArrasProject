@@ -1,19 +1,31 @@
 html{
-    background-color: #816767;
+    /*background-color: #816767;
+    background-color: linear-gradient(120deg, #b70000 0%, #001eff 100%);*/
     scroll-padding-top: 140px;
+    background: radial-gradient(ellipse at bottom, #d1c1c4 0%, #4f3b3b 100%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+    margin: 0;
+    padding: 0;
 }
 
 main{
-    background-color: #ccb8be;
-    margin: 120px 190px 0 190px;
+    background-color: #ccb8be99;
+    /*margin: 120px 190px 0 190px;*/
+    margin: 120px 10vw 50px 10vw;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    box-shadow: 0 0 50px 20px#523d3d80;
+    box-shadow: 0 0 50px 20px#d0a2a280;
     border-style: solid;
     border-width: 2px;
-    border-color: #f5f0f1bb;
+    border-color: #f5f0f188;
+    flex: 1;
 
 }
 
@@ -33,7 +45,7 @@ header{
     padding-left: 2vw;
     color:rgb(82, 57, 57);
     border-bottom: #cec0cc solid 4px ;
-    box-shadow: inset 0 30px 55px 5px rgba(194, 171, 193, 0.781), 0 0 50px 20px rgb(92, 72, 72)
+    box-shadow: inset 0 30px 55px 5px rgba(194, 171, 193, 0.781), 0 0 50px 20px #d0a2a280;
 }
 
 header ul{
@@ -62,3 +74,41 @@ li{
     list-style: none;
 }
 
+/* ### -------------------------------------------------------------------- ### */
+/* ### ---------------------------- FOOTER -------------------------------- ### */
+
+/*footer{
+    background-color: #e19ef2;
+    display: flex;
+    flex-direction: column;
+    
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 20px 15px #c874d980;
+    border-color: #eaebed6e;
+    border-style: solid none none none;
+    z-index: 1000;
+}*/
+
+/*footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #ccb8be;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    
+    z-index: 1000;
+}*/
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F0F1;
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+    color:rgb(82, 57, 57);
+    border-top: #cec0cc solid 4px ;
+    box-shadow: inset 0 -30px 55px 5px rgba(194, 171, 193, 0.781), 0 0 50px 20px #d0a2a280;
+}
